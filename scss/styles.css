@@ -163,6 +163,14 @@ header.sticky {
   z-index: 999;
 }
 
+#menu {
+  position: fixed;
+  left: 50;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  z-index: 1;
+}
+
 #menu.active {
   display: block;
 }
@@ -350,7 +358,7 @@ footer .flex {
 
 #lead-content {
   position: absolute;
-  z-index: 10;
+  z-index: 5;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -484,10 +492,10 @@ footer .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -933,6 +941,19 @@ footer .flex {
   }
   .vtimeline-content {
     margin-left: 70px;
+  }
+  .about-text {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
 }
 
