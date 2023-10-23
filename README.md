@@ -1,45 +1,42 @@
 # Dev Portfolio
 
-🚀 **[Dev Portfolio V2 has arrived. Meet Devfolio, a modern portfolio + blog template built with GatsbyJS and TailwindCSS](https://github.com/RyanFitzgerald/devfolio)** 🚀
+🚀 **[Dev Portfolio V2 has arrived. Meet Devfolio, a modern portfolio + blog template built with GatsbyJS and TailwindCSS]** 🚀
 
 This repo contains an easy-to-customize personal dev portfolio template that was created with Sass and JavaScript. It is lightweight and fully responsive, as well as comes with the Bootstrap grid system and loaded with Font Awesome. The site is static and comes production ready if you just want to add your information and go. Alternatively, you can edit styles, colours, and scripts fairly easily. The site was built as modular as possible to make it easy to shift around styles and content.
 
-To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/).
-
-Looking for a blog template? Checkout [DevBlog](https://github.com/RyanFitzgerald/devblog).
-
 ## Features
 
-* Gulp ready (compiles Sass and minifies JS)
-* Sass ready with lots of commenting
-* Fully responsive
-* Comes with Bootstrap grid system
-* Easy colour changes can be done through simple variable edits
+- Gulp ready (compiles Sass and minifies JS)
+- Sass ready with lots of commenting
+- Fully responsive
+- Comes with Bootstrap grid system
+- Easy colour changes can be done through simple variable edits
 
 ## Contents
 
 - [Setup and Configuration](#setup-and-configuration)
-    - [Making Edits / Customizing the Template](#making-edits--customizing-the-template)
-    - [Using the Template As Is](#using-the-template-as-is)
+  - [Making Edits / Customizing the Template](#making-edits--customizing-the-template)
+  - [Using the Template As Is](#using-the-template-as-is)
 - [Customization and Editing](#customization-and-editing)
-    - [General](#general)
-    - [Images](#images)
-    - [Header Section](#header-section)
-    - [Lead Section](#lead-section)
-    - [About Section](#about-section)
-    - [Experience Section](#experience-section)
-    - [Education Section](#education-section)
-    - [Projects Section](#projects-section)
-    - [Skills Section](#skills-section)
-    - [Contact Section](#contact-section)
-    - [Footer Section](#footer-section)
-    - [Optional Sections](#optional-sections)
+  - [General](#general)
+  - [Images](#images)
+  - [Header Section](#header-section)
+  - [Lead Section](#lead-section)
+  - [About Section](#about-section)
+  - [Experience Section](#experience-section)
+  - [Education Section](#education-section)
+  - [Projects Section](#projects-section)
+  - [Skills Section](#skills-section)
+  - [Contact Section](#contact-section)
+  - [Footer Section](#footer-section)
+  - [Optional Sections](#optional-sections)
 - [Changelog](#changelog)
 - [License](#license)
 
 ## Setup and Configuration
 
 The setup required can be broken into two types:
+
 1. If you want to make edits or customize the template
 2. If you just want to add your information as use as is
 
@@ -49,7 +46,7 @@ To setup, simply fork the repo and run `npm install` in order to get all the Gul
 
 All scripts are within `js/scripts.js` and get minified to `js/scripts.min.js`. All styles are in `sass/styles.scss` and get compiled to `css/styles.css`. Both the minified scripts file and compiled CSS file are what is loaded on the page by default.
 
-At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below  contains a quick breakdown of each of the default sections and how they work.
+At this point, the page is ready to go and you can begin to add your own information and make any needed changes. The sections below contains a quick breakdown of each of the default sections and how they work.
 
 ### Using The Template As Is
 
@@ -86,9 +83,9 @@ There is also a number of default CSS classes that can be applied such as `.shad
 
 By default, the template comes with a number of images, some of which can be kept and others which act simply as placeholders and should be switched. The template contains the following:
 
-* Main background (images/lead-bg.jpg) - this is the main background image provided via [Unsplash](https://unsplash.com/). This can be kept or changed easily by replacing `images/lead-bg.jpg` with your new background (recommended size of at least 1920x1080).
-* Favicon (/favicon.ico) - this is the favicon used for the page. Similar to the main bg, this can be kept or changed easily by replacing the `favicon.ico` with your new one.
-* Project image - these are the images associated with the projects under the project section. These are simply placeholders and should either be replaced or removed.
+- Main background (images/lead-bg.jpg) - this is the main background image provided via [Unsplash](https://unsplash.com/). This can be kept or changed easily by replacing `images/lead-bg.jpg` with your new background (recommended size of at least 1920x1080).
+- Favicon (/favicon.ico) - this is the favicon used for the page. Similar to the main bg, this can be kept or changed easily by replacing the `favicon.ico` with your new one.
+- Project image - these are the images associated with the projects under the project section. These are simply placeholders and should either be replaced or removed.
 
 ### Header Section
 
@@ -257,6 +254,7 @@ Since the page is static, I opted to use the awesome Formspree to allow for a co
     <button type="submit">Send</button>
 </form>
 ```
+
 For more information on configuration of the contact form or dealing with errors, check out [Formspree](https://formspree.io/).
 
 For a quick tutorial about formspree, check out this [tutsplus tutorial](https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870) that covers different aspects and features of the form tool.
@@ -304,41 +302,41 @@ The optional section blocks have styling for h3 (the block title), h4, p, and ul
 
 ### 1.2.2
 
-* Updated dependencies and gulpfile
+- Updated dependencies and gulpfile
 
 ### 1.2.1
 
-* Updated dependencies and gulpfile
-* Added `no-image` optional class for projects without images (see above for usage)
+- Updated dependencies and gulpfile
+- Added `no-image` optional class for projects without images (see above for usage)
 
 ### 1.2.0
 
-* Added support for optional "Show More Projects" that hides some projects by default if included
-* Added optional sections to display certifications, languages, etc.
+- Added support for optional "Show More Projects" that hides some projects by default if included
+- Added optional sections to display certifications, languages, etc.
 
 ### 1.1.3
 
-* Added default favicon to be used or changed
-* Added `sticky` class to make header fixed
-* Updated docs to add image section
+- Added default favicon to be used or changed
+- Added `sticky` class to make header fixed
+- Updated docs to add image section
 
 ### 1.1.2
 
-* Added `no-scroll` class option to header navigation anchor if you want to link to external site
-* Changed contact form input / textarea colours to be based off `$base-color`
-* Changed main background to 100vh so it doesn't overflow if viewport height < 700px
+- Added `no-scroll` class option to header navigation anchor if you want to link to external site
+- Changed contact form input / textarea colours to be based off `$base-color`
+- Changed main background to 100vh so it doesn't overflow if viewport height < 700px
 
 ### 1.1.1
 
-* Made input placeholder text more readable
-* Removed timeline line when no JS
-* Added some basic styling to timeline when no JS
+- Made input placeholder text more readable
+- Removed timeline line when no JS
+- Added some basic styling to timeline when no JS
 
 ### 1.1.0
 
-* Fixed menu toggle on mobile devices
-* Fixed z-index / scrolling issue with mobile menu
-* Mobile menu now closes once a nav element is hit
+- Fixed menu toggle on mobile devices
+- Fixed z-index / scrolling issue with mobile menu
+- Mobile menu now closes once a nav element is hit
 
 ## License
 
