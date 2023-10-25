@@ -138,19 +138,19 @@ header li {
 
 header a {
   display: block;
-  color: #da313c;
+  color: #1b7993;
   padding: 10px;
 }
 
 header a:hover {
-  color: #b7212b;
+  color: #135668;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
 }
 
 header a:focus {
-  color: #da313c;
+  color: #1b7993;
   text-decoration: none;
 }
 
@@ -181,7 +181,7 @@ header.sticky {
   position: fixed;
   right: 15px;
   top: 10px;
-  color: #da313c;
+  color: #1b7993;
   font-size: 1.5em;
   z-index: 20;
   padding: 0 7px;
@@ -198,7 +198,7 @@ header.sticky {
   padding-right: 15px;
   padding-top: 10px;
   cursor: pointer;
-  color: #da313c;
+  color: #1b7993;
 }
 
 #mobile-menu-close span {
@@ -277,11 +277,19 @@ footer .flex {
 }
 
 .social a:hover {
-  color: #da313c;
+  color: #1b7993;
 }
 
 .inline {
   display: inline;
+}
+
+.link-color {
+  color: #80979e !important;
+}
+
+.white {
+  color: white !important;
 }
 
 .link:hover {
@@ -301,7 +309,7 @@ footer .flex {
 }
 
 .btn-rounded-white:hover {
-  color: #da313c;
+  color: #1b7993;
   background: #fff;
   text-decoration: none;
 }
@@ -333,7 +341,7 @@ footer .flex {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #da313c;
+  background: #1b7993;
 }
 
 .background-alt {
@@ -350,7 +358,7 @@ footer .flex {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg.jpg);
+  background: url(../images/coding.jpeg);
   background-size: cover;
   padding: 15px;
   overflow: hidden;
@@ -381,7 +389,7 @@ footer .flex {
 }
 
 #lead-content h2 {
-  color: #ed9da2;
+  color: #4fbfdf;
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px;
@@ -395,7 +403,7 @@ footer .flex {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(183, 33, 43, 0.8);
+  background: rgba(19, 86, 104, 0.8);
   z-index: 1;
 }
 
@@ -417,7 +425,7 @@ footer .flex {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #ed9da2;
+  border: 3px solid #4fbfdf;
   text-align: center;
 }
 
@@ -484,7 +492,7 @@ footer .flex {
   width: 200px;
   height: 200px;
   border-width: 1;
-  border-color: #da313c;
+  border-color: #1b7993;
   overflow: hidden;
 }
 
@@ -545,7 +553,7 @@ footer .flex {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #da313c;
+  background: #1b7993;
   z-index: 0;
 }
 
@@ -554,9 +562,9 @@ footer .flex {
   content: "";
   width: 3px;
   height: 40px;
-  background: #da313c;
-  background: -webkit-gradient(linear, left top, left bottom, from(#da313c), to(rgba(218, 49, 60, 0)));
-  background: linear-gradient(to bottom, #da313c, rgba(218, 49, 60, 0));
+  background: #1b7993;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b7993), to(rgba(27, 121, 147, 0)));
+  background: linear-gradient(to bottom, #1b7993, rgba(27, 121, 147, 0));
   top: 100%;
   left: 303px;
 }
@@ -603,7 +611,7 @@ footer .flex {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #da313c;
+  background: #1b7993;
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -789,7 +797,7 @@ footer .flex {
 */
 #contact {
   padding: 50px 15px;
-  background: #da313c;
+  background: #1b7993;
   text-align: center;
 }
 
@@ -812,7 +820,7 @@ footer .flex {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #a11d26;
+  background: #0f4452;
   color: #fff;
   -webkit-transition: 0.5s ease all;
   transition: 0.5s ease all;
@@ -843,7 +851,7 @@ footer .flex {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  background: #76151c;
+  background: #072027;
 }
 
 #contact-form textarea {
@@ -858,7 +866,7 @@ footer .flex {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #da313c;
+  color: #1b7993;
   font-weight: 700;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);

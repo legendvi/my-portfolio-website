@@ -34,8 +34,9 @@
 */
 
 // Define base and accent colors
-$base-color: #da313c;
+$base-color: rgba(27, 121, 147, 8);
 $base-color-hover: darken($base-color, 10%);
+$lead-link-color: #80979e;
 
 // Define background colors
 $background: #fff;
@@ -304,6 +305,13 @@ footer {
 .inline {
   display: inline;
 }
+
+.link-color {
+  color: $lead-link-color !important;
+}
+.white {
+  color: white !important;
+}
 .link:hover {
   text-decoration: underline;
   color: white !important;
@@ -367,7 +375,7 @@ footer {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg.jpg);
+  background: url(../images/coding.jpeg);
   background-size: cover;
   padding: 15px;
   overflow: hidden;
